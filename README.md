@@ -1,5 +1,5 @@
 # Maven_Movies_Rental_DA
-Data analysis of movies CD/DVD rental (transactions) and inventory
+
 
 ## Project Overview:
 This project analyzes a movie rental business's database to provide actionable insights for improving operations, marketing strategies, and inventory management. The dataset is hosted in the MAVENMOVIES database, and SQL was extensively used for exploratory data analysis (EDA), schema understanding, and answering business-critical ad-hoc queries.
@@ -174,4 +174,3 @@ Most Spending Customer so that we can send him/her rewards or debate points
 -- and advisor names, and include a column noting whether they are a staff member or advisor? Thanks!”
 
 
-# Maven_Movies_Rental
