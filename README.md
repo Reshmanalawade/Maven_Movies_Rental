@@ -55,7 +55,7 @@ This repository contains SQL queries and corresponding visualizations for analyz
 ### 1. Customer Information for Marketing Team
 Retrieve customer first name, last name, and email ID.
 
-![Customer Info](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/CUSTOMER_TABLE.png)
+![Customer Info](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/CUSTOMER_TABLE.png) 
 
 ### 2. Count of Movies with Rental Rate of $0.99
 ![Cheapest Rental](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/CHEAPEST_RENTALS.png)
