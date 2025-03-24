@@ -1,176 +1,141 @@
-# Maven_Movies_Rental_DA
+# 🎬 Maven Movies: Unlocking Insights for a Rental Business
 
+![Project Banner](https://github.com/Sayali821/Mavenmovies/blob/200eb076804152c5e1ba46638a60a3a5d01c34c1/banner.jpg)
 
-## Project Overview:
-This project analyzes a movie rental business's database to provide actionable insights for improving operations, marketing strategies, and inventory management. The dataset is hosted in the MAVENMOVIES database, and SQL was extensively used for exploratory data analysis (EDA), schema understanding, and answering business-critical ad-hoc queries.
+## 📌 Project Overview
+This project focuses on analyzing the *MAVENMOVIES* database to extract valuable insights that can enhance business operations, marketing strategies, and inventory management. SQL is extensively used to perform exploratory data analysis (EDA), understand the database schema, and answer critical business queries.
 
-## Project Objectives:
 
-### Customer Insights:
+---
 
-Identify customer details (names, emails) for targeted marketing campaigns.
-Analyze customer rental patterns to improve customer engagement.
+## 🎯 Project Goals
 
-### Movie Inventory Analysis:
+### 🛒 Customer Insights
 
-Explore the rental inventory and classify movies based on rental rates and availability.
-Provide recommendations for expanding the movie collection based on popularity and rental rates.
-Revenue Optimization:
+- 📌 Identify customer details (names, emails) to enhance targeted marketing campaigns.
+- 📊 Analyze rental behavior to improve customer engagement.
 
-Analyze rental rates to identify trends and the profitability of various pricing categories.
-Determine the most rented movie categories and ratings to maximize revenue.
+### 🎮 Movie Inventory Optimization
 
-### Operational Efficiency:
+- 🛆 Evaluate rental inventory and categorize movies based on rental rates and availability.
+- 🔍 Suggest recommendations for expanding the movie collection based on popularity and rental trends.
 
-Help track and manage movie inventory effectively.
-Highlight gaps in the inventory and optimize stock levels.
+### 💰 Revenue Enhancement
 
+- 📈 Examine rental pricing trends to identify profitable pricing strategies.
+- 🎥 Determine the most rented movie categories and ratings to maximize earnings.
 
-# Tools & Library Used
-[<img src="./MySQL-logo.png" alt="myql-logo" width="100"/>](https://www.mysql.com/) &nbsp;
+### ⚙️ Operational Efficiency
 
-# Project Result
-[Click here to get full code](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Maven%20movie%20project.sql)
+- 📌 Track and manage movie inventory efficiently.
+- 📉 Identify inventory gaps and optimize stock levels.
 
+---
 
-# Query Task
+## 🛠️ Tools & Technologies Used
+- *SQL* – Data extraction, transformation, and querying
+- *MAVENMOVIES Database* – Source of movie rental data
 
-1. How can we extract the first name, last name, and email address of all customers to prepare a comprehensive contact list for the marketing team?
+---
 
-[<img src="./Code_outputs/EMAIL_ID_LIST.png" alt="myql-logo" width="400"/>]&nbsp;
+## 📊 Insights & Expected Outcomes
+- 📢 *Enhanced marketing strategies* based on customer segmentation and preferences.
+- 🎬 *Optimized inventory management* with improved stock replenishment strategies.
+- 💵 *Increased revenue generation* through data-driven pricing and rental trends.
+- 📌 *Operational efficiency* with a structured approach to inventory tracking.
 
-2. What is the total number of movies in the inventory that are available for rent at the lowest rental rate of $0.99?
+---
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+# Movies Rental Data Queries
 
-3. How can we categorize all movies based on their rental rates and determine the count of movies in each category?
+This repository contains SQL queries and corresponding visualizations for analyzing the Movies Rental dataset.
 
-[<img src="./Code_outputs/TOTAL_NUMBER_OF_MOVIES.png" alt="myql-logo" width="400"/>]&nbsp;
+## Queries and Visualizations
 
-4. Which movie rating (e.g., PG, PG-13, R) has the highest number of titles in the inventory, and how can this information help optimize inventory management?
+### 1. Customer Information for Marketing Team
+Retrieve customer first name, last name, and email ID.
 
-[<img src="./Code_outputs/RATING_WISE_COUNT.png" alt="myql-logo" width="400"/>]&nbsp;
+![Customer Info](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/email.png)
 
-5. What is the total count of PG-rated movies that have been rented, and what does this indicate about customer preferences?
+### 2. Count of Movies with Rental Rate of $0.99
+![Cheapest Rental](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/CHEAPEST_RENTAL.png)
 
-[<img src="./Code_outputs/TOTAL_FILMS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 3. Rental Rate Distribution and Movie Count
+![Total Movies per Rental Rate](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/TOTAL_NO_OF_MOVIES.png)
 
-6. What are the inventory IDs and corresponding film titles for movies that are currently rented out, and how can this data help track rental activity?
-List of films by Film Name, Category, Language
+### 4. Most Common Movie Rating
+![Rating Count](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/rating_wise_count.png)
 
-[<img src="./Code_outputs/TOTAL_FILMS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 5. Most Prevalent Rating per Store
+![Rating per Store](https://github.com/Athu087/Movies_rental/blob/d5bf4597456956ee94bc974f6f54cd4122f0b2ff/images/rating_to_store.png)
 
-8. How many rentals have been made for each movie rating category, and what insights can be drawn regarding the popularity of specific ratings?
+### 6. List of Films by Name, Category, and Language
+![Film List](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/TLC.png)
 
- How many times each movie has been rented out?
+### 7. Movie Rental Frequency
+![Rental Popularity](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/popularity.png)
 
+### 8. Top 10 Grossing Films
+![Revenue per Film](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/REVENUE.png)
 
-9. How much revenue has been generated for each movie rating category, and how can this data assist in setting pricing strategies?
+### 9. Highest Spending Customer
+![Most Spending Customer](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/MOST_SPENDING_CUSTOMER.png)
 
-[<img src="./Code_outputs/REVENUE_PER_MOVIE.png" alt="myql-logo" width="400"/>]&nbsp;
+### 10. Store with Most Revenue
+![Highest Revenue Store](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/MOST_REVENUE.png)
 
-9. How many customers are actively renting movies, and what trends can be observed regarding their rental behavior?
+### 11. Monthly Rentals Count
+![Rentals Per Month](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/RENTALS_PER_MONTH.png)
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 12. Customers Eligible for Rewards
+![Reward Eligible Customers](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/REWARD_VIA_PHONE.png)
 
-10. What is the number of movies rented for each rental duration category, and how can this data inform inventory optimization?
+### 13. Payments from First 100 Customers
+![First 100 Customer Payments](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/FIRST_100_CUSTOMER_PAYMENTS.png)
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 14. Payments Over $5 Since Jan 1, 2006
+![Payments Over $5](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/JAN_06_2006.png)
 
-11. Which movie titles are rented most frequently, and how can this information help identify popular trends?
+### 15. Payments Over $5 for Specific Customers
+![Payments Over $5](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/PAYMENTS_OVER_%245.png)
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 16. Films with 'Behind the Scenes' Special Feature
+![Behind the Scenes Films](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/BTS.png)
 
-12. Who are the top customers based on the number of movies rented, and how can this data be used for personalized marketing strategies?
+### 17. Unique Movie Ratings and Count
+![Unique Ratings](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/UNI_MOVIES_RATINGS_%26_NO_OF_MOVIES.png)
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 18. Titles Count by Rental Duration
+![Rental Duration Count](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/SLICED_BY_RENTAL_RATE.png)
 
-13. What is the total revenue generated by each customer, and how can this information highlight valuable customers for loyalty programs?
+### 19. Ratings, Movie Count, Length, and Rental Duration
+![Ratings and Rental Duration](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/COMPARE_WITH_RENTAL_DURATION.png)
 
-[<img src="./Code_outputs/CHEAPEST_RENTALS.png" alt="myql-logo" width="400"/>]&nbsp;
+### 20. Film Count by Replacement Cost with Rental Rates
+![Replacement Cost Analysis](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/MIN_MAX_AVG.png)
 
+### 21. Customers with Less Than 15 Rentals
+![Low Rental Customers](https://github.com/Athu087/Movies_rental/blob/d5bf4597456956ee94bc974f6f54cd4122f0b2ff/images/less_15.png)
 
-Most Spending Customer so that we can send him/her rewards or debate points
+### 22. Longest Films Sorted by Length and Rental Rate
+![Longest Films](https://github.com/Athu087/Movies_rental/blob/d5bf4597456956ee94bc974f6f54cd4122f0b2ff/images/longestfilms_sort.png)
 
+### 23. Categorization of Movies by Length
+![Movies Categorized by Length](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/SLICED_BY_RENTAL_RATE.png)
 
--- Which Store has historically brought the most revenue?
+### 24. Movie Recommendations by Age Group
+![Age-Based Recommendations](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/FIT_FOR_RECOMMENDATION.png)
 
--- How many rentals we have for each month
+### 25. Films Inventory List
+![Films in Inventory](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/FILMS_IN_INVENTORY.png)
 
+### 26. Actor Movie Count
+![Actor Movie Count](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/NO_OF_FILMS_BY_ACTOR.png)
 
--- Reward users who have rented at least 30 times (with details of customers)
+### 27. Number of Actors per Film
+![Actors per Title](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/ACTOR_ASSOCIATED_WITH_TITLE.png)
 
+### 28. List of Staff and Advisors
+![Staff and Advisors](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/UNION.png)
 
--- Could you pull all payments from our first 100 customers (based on customer ID)
-
-
--- Now I’d love to see just payments over $5 for those same customers, since January 1, 2006
-
-
--- Now, could you please write a query to pull all payments from those specific customers, along
--- with payments over $5, from any customer?
-
-
--- We need to understand the special features in our films. Could you pull a list of films which
--- include a Behind the Scenes special feature?
-
-
--- unique movie ratings and number of movies
-
-
--- Could you please pull a count of titles sliced by rental duration?
-
-
--- RATING, COUNT_MOVIES,LENGTH OF MOVIES AND COMPARE WITH RENTAL DURATION
-
-
--- I’m wondering if we charge more for a rental when the replacement cost is higher.
--- Can you help me pull a count of films, along with the average, min, and max rental rate,
--- grouped by replacement cost?
-
-
--- “I’d like to talk to customers that have not rented much from us to understand if there is something
--- we could be doing better. Could you pull a list of customer_ids with less than 15 rentals all-time?”
-
-
--- “I’d like to see if our longest films also tend to be our most expensive rentals.
--- Could you pull me a list of all film titles along with their lengths and rental rates, and sort them
--- from longest to shortest?”
-
-
--- CATEGORIZE MOVIES AS PER LENGTH
-
-
--- CATEGORIZING MOVIES TO RECOMMEND VARIOUS AGE GROUPS AND DEMOGRAPHIC
-
-
--- “I’d like to know which store each customer goes to, and whether or
--- not they are active. Could you pull a list of first and last names of all customers, and
--- label them as either ‘store 1 active’, ‘store 1 inactive’, ‘store 2 active’, or ‘store 2 inactive’?”
-
-
--- “Can you pull for me a list of each film we have in inventory?
--- I would like to see the film’s title, description, and the store_id value
--- associated with each item, and its inventory_id. Thanks!”
-
-
--- Actor first_name, last_name and number of movies
-
-
--- “One of our investors is interested in the films we carry and how many actors are listed for each
--- film title. Can you pull a list of all titles, and figure out how many actors are
--- associated with each title?”
-
-
--- “Customers often ask which films their favorite actors appear in. It would be great to have a list of
--- all actors, with each title that they appear in. Could you please pull that for me?”
-
-
--- “The Manager from Store 2 is working on expanding our film collection there.
--- Could you pull a list of distinct titles and their descriptions, currently available in inventory at store 2?”
-
-
--- “We will be hosting a meeting with all of our staff and advisors soon. Could you pull one list of all staff
--- and advisor names, and include a column noting whether they are a staff member or advisor? Thanks!”
-
-
+---
