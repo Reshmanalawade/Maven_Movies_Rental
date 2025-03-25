@@ -121,7 +121,7 @@ Retrieve customer first name, last name, and email ID.
 ![Longest Films](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/longestfilms_sort.png)
 
 ### 23. Categorization of Movies by Length
-![Movies Categorized by Length](https://github.com/Athu087/Movies_rental/blob/1dfa0affc2a0cd10a1b955543baf23680ec0fcac/images/SLICED_BY_RENTAL_RATE.png)
+![Movies Categorized by Length](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/SLICED_BY_RENTAL_RATE.png)
 
 ### 24. Movie Recommendations by Age Group
 ![Age-Based Recommendations](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/RECOMMENDATION_SYSTEM.png)
