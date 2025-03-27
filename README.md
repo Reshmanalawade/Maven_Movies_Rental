@@ -106,7 +106,7 @@ Retrieve customer first name, last name, and email ID.
 ![Unique Ratings](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/RATINGWISE_MOVIES.png)
 
 ### 18. Titles Count by Rental Duration
-![Rental Duration Count](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/SLICED_BY_RENTAL_RATE%20(1).png)
+![Rental Duration Count](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/RENTAL_DURATIONWISE_MOVIES.png)
 
 ### 19. Ratings, Movie Count, Length, and Rental Duration
 ![Ratings and Rental Duration](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/COMPARE_LENGTH.png)
