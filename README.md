@@ -67,7 +67,7 @@ Retrieve customer first name, last name, and email ID.
 ![Rating Count](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/RATING_WISE_COUNT.png)
 
 ### 5. Most Prevalent Rating per Store
-![Rating per Store](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/TOTAL_FILMS.png)
+![Rating per Store](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/rating_to_store%20(1).png)
 
 ### 6. List of Films by Name, Category, and Language
 ![Film List](https://github.com/Reshmanalawade/Maven_Movies_Rental/blob/main/Code%20Output/CATEGORY_NAME.png)
